@@ -1,0 +1,25 @@
+@media (max-width: 1024px){
+    .bars{
+        font-size: 20px;
+        display: block !important;
+        position: absolute;
+        top: 33px;
+        left: 86%;    
+    }
+    nav>ul{
+        display: none;
+    }
+    .mike{
+        display: none;
+    }
+}
+
+@media (max-width: 769px){
+    .shop-icon{
+        display: none;
+    }
+    .header-col2>h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

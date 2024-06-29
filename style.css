@@ -9,7 +9,6 @@
     font-family: 'Poppins', sans-serif;
   }
 
-
   .header{
     background:radial-gradient(#fff,#ffd6d6);
   }
@@ -20,6 +19,14 @@
     padding-left: 25px;
     padding-right: 25px;
   }
+
+  .logo img{
+    cursor: pointer;
+  }
+
+  .bars{
+    display: none !important;
+}
 
   .navbar{
     display:flex;
@@ -272,4 +279,24 @@ small{
 
 .copy{
     text-align: center;
+}
+
+.footer-col4 ul li{
+    cursor: pointer;
+}
+
+.footer-col4 ul li:hover{
+    color: #FFF;
+}
+
+.footer-col3 ul li{
+    cursor: pointer;
+}
+
+.footer-col3 ul li:hover{
+    color: #FFF;
+}
+
+div.col4{
+    cursor: pointer;
 }
